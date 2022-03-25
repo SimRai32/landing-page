@@ -15,7 +15,7 @@ body{
     flex-direction: row;
     justify-content: center;
     padding: 10px;
-    padding-bottom: 80px;
+    padding-bottom: 65px;
     
 }
 .Header-Logo{
@@ -62,6 +62,7 @@ h2{
     width:600px;
     font-size: 48px;
     margin-bottom: 0;
+
 }
 .left-side p{
     width:500px;
@@ -84,6 +85,7 @@ h3{
     font-size: 36px;
     font-weight:bolder; 
     color: #1F2937;
+    padding:30px;
 }
 .mid-container .group{
     display: flex;
@@ -133,6 +135,7 @@ body .lower-container{
     width: 900px;
     padding-bottom: 0;
     margin-bottom: 0;
+    padding-top: 20px;
 }
 
 .lower-container h6{
@@ -193,8 +196,8 @@ body .lower-container{
     justify-content: center;
     align-items: center;
     color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
    
 }
 
