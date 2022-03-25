@@ -1,0 +1,125 @@
+body{
+    display:flex;
+    flex-direction: column;
+    overflow: scroll;
+    height:100vh;
+    margin:0;
+    font-family: 'sans-serif';
+    
+}
+
+.header{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 80px;
+    
+}
+.Header-Logo{
+    font-weight: 900;
+    font-size: 24px;
+    margin-right: 570px;
+}
+.upper-container{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+.left-side button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 30px;
+    width:100px;
+    height:25px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: flex-end;
+    margin-top: 0;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+h2{
+    width:600px;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.left-side p{
+    width:500px;
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: lighter;
+}
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    padding: 110px 150px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight:bolder; 
+    color: #1F2937;
+}
+body .big-mid-container{
+    display: flex;
+    flex-direction: column;
+}
+body .mid-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+.mid-container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 180px;
+    border:3px solid #3882F6;
+    border-radius: 12px;
+}
+body .mid-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+}
+.mid-container2 .text{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+width:210px;
+
+}
+
+/*group each box and comment/*
